@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80167" started-at="2020-04-07T18:13:50 IST" finished-at="2020-04-07T18:15:10 IST">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="38906" started-at="2020-04-07T18:13:50 IST" finished-at="2020-04-07T18:14:28 IST">
+      <class name="com.zalenium.test.TestZalenium">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.zalenium.test.TestZalenium@7c29daf3]" name="setUpTest" is-config="true" duration-ms="31189" started-at="2020-04-07T18:13:50 IST" finished-at="2020-04-07T18:14:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.zalenium.test.TestZalenium@7c29daf3]" name="precondition" is-config="true" duration-ms="7639" started-at="2020-04-07T18:14:21 IST" finished-at="2020-04-07T18:14:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testZaleniumDemo()[pri:0, instance:com.zalenium.test.TestZalenium@7c29daf3]" name="testZaleniumDemo" duration-ms="9" started-at="2020-04-07T18:14:28 IST" finished-at="2020-04-07T18:14:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZaleniumDemo -->
+      </class> <!-- com.zalenium.test.TestZalenium -->
+    </test> <!-- chrome -->
+    <test name="firefox" duration-ms="41185" started-at="2020-04-07T18:14:29 IST" finished-at="2020-04-07T18:15:10 IST">
+      <class name="com.zalenium.test.TestZalenium">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.zalenium.test.TestZalenium@4d95d2a2]" name="setUpTest" is-config="true" duration-ms="35642" started-at="2020-04-07T18:14:29 IST" finished-at="2020-04-07T18:15:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.zalenium.test.TestZalenium@4d95d2a2]" name="precondition" is-config="true" duration-ms="5537" started-at="2020-04-07T18:15:04 IST" finished-at="2020-04-07T18:15:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="testZaleniumDemo()[pri:0, instance:com.zalenium.test.TestZalenium@4d95d2a2]" name="testZaleniumDemo" duration-ms="2" started-at="2020-04-07T18:15:10 IST" finished-at="2020-04-07T18:15:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZaleniumDemo -->
+      </class> <!-- com.zalenium.test.TestZalenium -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
